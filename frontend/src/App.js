@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import NavBar from "./NavBar";
+import NavBar from "./components/NavBar";
 import './App.css';
 
 const navObj = {
   logo: "PSC",
-  option: [ "home", "suggestion", "contact us" ]
+  option: [ "home", "suggestion", "contact" ]
 }
 class App extends Component {
   render() {
@@ -13,6 +13,9 @@ class App extends Component {
         <NavBar 
           obj={navObj}
         />
+        <div id="home">test home</div>
+        <div id="suggestion">test suggestion</div>
+        <div id="contact">test contact</div>
       </div>
     );
   }

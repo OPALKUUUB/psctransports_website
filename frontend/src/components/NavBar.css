@@ -1,0 +1,38 @@
+.NavBar {
+    background-color: #D4ECDD;
+    overflow: hidden;
+    z-index: 5;
+    width: 100%;
+}
+
+.NavBar a {
+    display: block;
+    float: left;
+}
+
+.NavBar .hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .NavBar .option {
+        display: none;
+    }
+    .NavBar .hamburger {
+        display: block;
+        float: right;
+    }
+    .NavBar.responsive {
+        position: relative;
+    }
+    .NavBar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .NavBar.responsive a.hamburger {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
