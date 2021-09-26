@@ -1,23 +1,27 @@
-import React, { Component } from "react";
-import NavBar from "./components/NavBar";
-import { Carousel } from "react-responsive-carousel";
-import "../node_modules/react-responsive-carousel/lib/styles/carousel.min.css";
-import './App.css';
+import React, { Component } from "react"
+import NavBar from "./components/NavBar"
+import { Carousel } from "react-responsive-carousel"
+import "../node_modules/react-responsive-carousel/lib/styles/carousel.min.css"
+import "./App.css"
 
 const navObj = {
   logo: "PSC",
-  option: ["home", "suggestion", "contact"]
+  option: ["home", "suggestion", "contact"],
 }
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavBar
-          obj={navObj}
-        />
-        <Carousel autoPlay showStatus={false} showThumbs={false} 
-        showArrows useKeyboardArrows verticalSwipe={"standard"} 
-        stopOnHover>
+        <NavBar obj={navObj} />
+        <Carousel
+          autoPlay
+          showStatus={false}
+          showThumbs={false}
+          showArrows
+          useKeyboardArrows
+          verticalSwipe={"standard"}
+          stopOnHover
+        >
           <div>
             <img src="/image/img1.1.1.jpg" />
           </div>
@@ -32,8 +36,8 @@ class App extends Component {
         <div id="suggestion">test suggestion</div>
         <div id="contact">test contact</div>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
