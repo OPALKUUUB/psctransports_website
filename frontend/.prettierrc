@@ -1,0 +1,14 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "jsxBracketSameLine": true,
+        "arrowParens": "always",
+        "parser": "babel"
+      }
+    }
+  ]
+}
