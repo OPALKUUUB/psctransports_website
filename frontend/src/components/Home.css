@@ -1,14 +1,28 @@
-.Home .head {
-  padding-top: 30px;
+.Home {
   text-align: center;
+  margin-bottom: 50px;
+  padding-top: 100px;
 }
-
-.Home .head h2 {
-  margin: 0;
+.Home .head {
+  margin-bottom: 30px;
 }
 
 .Home .body {
-  padding: 0 20px;
-  display: flex;
-  flex-direction: row;
+  padding: 0 150px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.Home .left-head {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.Home .left-body {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.Home .right-body img {
+  height: 130px;
 }

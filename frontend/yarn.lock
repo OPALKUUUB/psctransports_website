@@ -7599,6 +7599,11 @@
   "resolved" "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   "version" "1.4.0"
 
+"navbar-react@^1.0.4":
+  "integrity" "sha512-TUgzeVMLlQ04rtrrmffUqiekL9PNQ2a9XOQk7ZM2bEITdOWRsCUTKWs6dewl5rlRWuARV91txRw6D/wgDMcxdg=="
+  "resolved" "https://registry.npmjs.org/navbar-react/-/navbar-react-1.0.4.tgz"
+  "version" "1.0.4"
+
 "negotiator@0.6.2":
   "integrity" "sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw=="
   "resolved" "https://registry.npmjs.org/negotiator/-/negotiator-0.6.2.tgz"
