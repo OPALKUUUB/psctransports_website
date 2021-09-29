@@ -23,6 +23,13 @@
   text-align: left;
 }
 
+.Home .right-body {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .Home .right-body img {
-  height: 130px;
+  height: 150px;
 }

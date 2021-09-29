@@ -6,7 +6,7 @@ class Home extends Component {
     return (
       <div className="Home">
         <div className="head">
-          <h2>Welcome to PSC web page</h2>
+          <h1>Welcome to PSC web page</h1>
         </div>
         <div className="body">
           <div className="left">
@@ -25,10 +25,10 @@ class Home extends Component {
             </p>
           </div>
           <div className="right-body">
-            <img src="/image/home1.jpg" />
-            <img src="/image/home2.jpg" />
-            <img src="/image/home3.jpg" />
-            <img src="/image/home4.jpg" />
+            <img src="/image/home1.jpg" alt="" />
+            <img src="/image/home2.jpg" alt="" />
+            <img src="/image/home3.jpg" alt="" />
+            <img src="/image/home4_resize.jpg" alt="" />
           </div>
         </div>
       </div>

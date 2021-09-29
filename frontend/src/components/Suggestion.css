@@ -1,0 +1,28 @@
+.Suggest .Suggest-head {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.Suggest .Suggest-body {
+  width: 100%;
+  padding: 0 400px;
+}
+
+.Suggest .Suggest-body input {
+  font-size: 1.2em;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.Suggest .Suggest-body textarea {
+  padding-top: 10px;
+  font-size: 1.5em;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.Suggest .Suggest-body .button {
+  text-align: right;
+}
+.Suggest .Suggest-body .button > button {
+  font-size: 1.2em;
+}

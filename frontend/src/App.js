@@ -5,6 +5,7 @@ import "./App.css";
 import Navbar from "navbar-react";
 import { Carousel } from "react-responsive-carousel";
 import Home from "./components/Home";
+import Suggestion from "./components/Suggestion";
 
 class App extends Component {
   static defaultProps = {
@@ -35,22 +36,25 @@ class App extends Component {
           showThumbs={false}
           useKeyboardArrows
           verticalSwipe={"standard"}
-          stopOnHover>
+          stopOnHover
+        >
           <div>
-            <img src="/image/carousel1.jpg" />
+            <img src="/image/carousel1.jpg" alt="" />
           </div>
           <div>
-            <img src="/image/carousel2.jpg" />
+            <img src="/image/carousel2.jpg" alt="" />
           </div>
           <div>
-            <img src="/image/carousel3.jpg" />
+            <img src="/image/carousel3.jpg" alt="" />
           </div>
         </Carousel>
         <div className="background-base">
           <section id="home">
             <Home />
           </section>
-          <section id="suggestion">section suggestion!!!</section>
+          <section id="suggestion">
+            <Suggestion />
+          </section>
           <section id="contact">section contact us!!!</section>
         </div>
       </div>
